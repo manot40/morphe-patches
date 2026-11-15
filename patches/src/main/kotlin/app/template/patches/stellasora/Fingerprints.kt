@@ -50,3 +50,10 @@ object VolleySslSocketFactoryCompatInitFingerprint : Fingerprint(
     returnType = "V",
     parameters = listOf()
 )
+
+object UnityPlayerActivityOnCreateFingerprint : Fingerprint(
+    definingClass = "Lcom/unity3d/player/UnityPlayerActivity;",
+    name = "onCreate",
+    returnType = "V",
+    parameters = listOf("Landroid/os/Bundle;")
+)
