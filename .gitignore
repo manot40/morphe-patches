@@ -135,3 +135,6 @@ node_modules/
 # Ignore IDEA files
 .idea/
 local.properties
+
+# Local tools & Morphe Desktop scratch/output files
+.local/
